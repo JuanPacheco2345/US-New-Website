@@ -13,8 +13,9 @@ const newsdetails = document.getElementById("newsdetails");
 // Array
 var newsDataArr = [];
 
+//console.log(process.env.API_KEY)
 // apis 
-const API_KEY = "c1f3ba72b1b545bebcf3a9be60b37b48";
+const API_KEY = process.env.API_KEY;
 const HEADLINES_NEWS = "https://newsapi.org/v2/top-headlines?country=us&apiKey=";
 const GENERAL_NEWS = "https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=";
 const BUSINESS_NEWS = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=";
