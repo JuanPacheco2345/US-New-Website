@@ -9,7 +9,7 @@ const searchBtn = document.getElementById("searchBtn");
 const newsQuery = document.getElementById("newsQuery");
 const newsType = document.getElementById("newsType");
 const newsdetails = document.getElementById("newsdetails");
-const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+const proxyUrl = "https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY"
 
 // Array
 var newsDataArr = [];
